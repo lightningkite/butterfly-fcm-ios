@@ -2,8 +2,8 @@
 platform :ios, '11.0'
 use_modular_headers!
 
-target 'KhrysalisFCM' do
-    pod 'Khrysalis', :path => '~/StudioProjects/khrysalis/khrysalis.podspec'
+target 'ButterflyFCM' do
+    pod 'Butterfly', :path => '~/StudioProjects/butterfly/butterfly.podspec'
     pod 'Firebase/Messaging'
     pod 'Firebase/Analytics'
 end

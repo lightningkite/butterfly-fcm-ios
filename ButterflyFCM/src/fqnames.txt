@@ -1,0 +1,7 @@
+ButterflyFCM
+com.lightningkite.butterfly.fcm.FirebaseMessagingActivity
+com.lightningkite.butterfly.fcm
+com.lightningkite.butterfly.fcm.ForegroundNotificationHandler
+com.lightningkite.butterfly.fcm.ForegroundNotificationHandlerResult
+com.lightningkite.butterfly.fcm.MyFirebaseMessagingService
+com.lightningkite.butterfly.fcm.Notifications
