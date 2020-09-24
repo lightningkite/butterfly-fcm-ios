@@ -1,6 +1,6 @@
 //
 //  Notifications.swift
-//  KhrysalisFCM
+//  ButterflyFCM
 //
 //  Created by Joseph Ivie on 1/21/20.
 //  Copyright © 2020 Lightning Kite. All rights reserved.
@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseCore
 import FirebaseMessaging
-import Khrysalis
+import Butterfly
 
 
 public class Notifications {

@@ -1,15 +1,15 @@
 //
-//  KhrysalisFCMTests.swift
-//  KhrysalisFCMTests
+//  ButterflyFCMTests.swift
+//  ButterflyFCMTests
 //
 //  Created by Joseph Ivie on 1/21/20.
 //  Copyright © 2020 Lightning Kite. All rights reserved.
 //
 
 import XCTest
-@testable import KhrysalisFCM
+@testable import ButterflyFCM
 
-class KhrysalisFCMTests: XCTestCase {
+class ButterflyFCMTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,6 +1,6 @@
 //
-//  KhrysalisFcmAppDelegate.swift
-//  KhrysalisFCM
+//  ButterflyFcmAppDelegate.swift
+//  ButterflyFCM
 //
 //  Created by Joseph Ivie on 1/21/20.
 //  Copyright © 2020 Lightning Kite. All rights reserved.
@@ -9,9 +9,9 @@
 import Foundation
 import FirebaseMessaging
 import FirebaseCore
-import Khrysalis
+import Butterfly
 
-open class KhrysalisFcmAppDelegate: KhrysalisAppDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
+open class ButterflyFcmAppDelegate: ButterflyAppDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
 
     override open func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
