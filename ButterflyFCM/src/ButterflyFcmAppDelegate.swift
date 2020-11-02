@@ -14,7 +14,9 @@ import Butterfly
 open class ButterflyFcmAppDelegate: ButterflyAppDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
 
     override open func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure()
+        if FirebaseApp.app() == nil {
+            FirebaseApp.configure()
+        }
         Messaging.messaging().delegate = self
         UNUserNotificationCenter.current().delegate = self
 
