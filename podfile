@@ -2,7 +2,7 @@
 platform :ios, '11.0'
 use_modular_headers!
 
-target 'ButterflyFCM' do
+target 'LKButterflyFCM' do
     pod 'LKButterfly', :path => '~/StudioProjects/butterfly/lkbutterfly.podspec'
     pod 'Firebase/Messaging'
     pod 'Firebase/Analytics'

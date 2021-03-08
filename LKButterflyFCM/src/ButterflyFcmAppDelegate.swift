@@ -1,6 +1,6 @@
 //
 //  ButterflyFcmAppDelegate.swift
-//  ButterflyFCM
+//  LKButterflyFCM
 //
 //  Created by Joseph Ivie on 1/21/20.
 //  Copyright © 2020 Lightning Kite. All rights reserved.

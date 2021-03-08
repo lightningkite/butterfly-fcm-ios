@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EE8E31723D7856F00A6D468 /* ButterflyFCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE8E30D23D7856F00A6D468 /* ButterflyFCM.framework */; };
+		5EE8E31723D7856F00A6D468 /* LKButterflyFCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE8E30D23D7856F00A6D468 /* LKButterflyFCM.framework */; };
 		5EE8E31C23D7857000A6D468 /* ButterflyFCMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8E31B23D7856F00A6D468 /* ButterflyFCMTests.swift */; };
-		5EE8E31E23D7857000A6D468 /* ButterflyFCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE8E31023D7856F00A6D468 /* ButterflyFCM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE8E31E23D7857000A6D468 /* LKButterflyFCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE8E31023D7856F00A6D468 /* LKButterflyFCM.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EE8E32823D786D500A6D468 /* ButterflyFcmAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8E32723D786D500A6D468 /* ButterflyFcmAppDelegate.swift */; };
 		5EE8E32A23D7ACF000A6D468 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8E32923D7ACF000A6D468 /* Notifications.swift */; };
-		FE6AA391575832EEC8243C01 /* libPods-ButterflyFCM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC91C479661739FFD024E27E /* libPods-ButterflyFCM.a */; };
+		FE6AA391575832EEC8243C01 /* libPods-LKButterflyFCM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC91C479661739FFD024E27E /* libPods-LKButterflyFCM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,22 +21,22 @@
 			containerPortal = 5EE8E30423D7856F00A6D468 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5EE8E30C23D7856F00A6D468;
-			remoteInfo = ButterflyFCM;
+			remoteInfo = LKButterflyFCM;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D02F53C6FAED10ED3EC5160 /* Pods-ButterflyFCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyFCM.debug.xcconfig"; path = "Target Support Files/Pods-ButterflyFCM/Pods-ButterflyFCM.debug.xcconfig"; sourceTree = "<group>"; };
-		5EE8E30D23D7856F00A6D468 /* ButterflyFCM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ButterflyFCM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EE8E31023D7856F00A6D468 /* ButterflyFCM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButterflyFCM.h; sourceTree = "<group>"; };
+		0D02F53C6FAED10ED3EC5160 /* Pods-LKButterflyFCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKButterflyFCM.debug.xcconfig"; path = "Target Support Files/Pods-LKButterflyFCM/Pods-LKButterflyFCM.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE8E30D23D7856F00A6D468 /* LKButterflyFCM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKButterflyFCM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE8E31023D7856F00A6D468 /* LKButterflyFCM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKButterflyFCM.h; sourceTree = "<group>"; };
 		5EE8E31123D7856F00A6D468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EE8E31623D7856F00A6D468 /* ButterflyFCMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButterflyFCMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE8E31B23D7856F00A6D468 /* ButterflyFCMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyFCMTests.swift; sourceTree = "<group>"; };
 		5EE8E31D23D7857000A6D468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EE8E32723D786D500A6D468 /* ButterflyFcmAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyFcmAppDelegate.swift; sourceTree = "<group>"; };
 		5EE8E32923D7ACF000A6D468 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
-		AC91C479661739FFD024E27E /* libPods-ButterflyFCM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ButterflyFCM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF89079811DD249410294D7D /* Pods-ButterflyFCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyFCM.release.xcconfig"; path = "Target Support Files/Pods-ButterflyFCM/Pods-ButterflyFCM.release.xcconfig"; sourceTree = "<group>"; };
+		AC91C479661739FFD024E27E /* libPods-LKButterflyFCM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKButterflyFCM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF89079811DD249410294D7D /* Pods-LKButterflyFCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKButterflyFCM.release.xcconfig"; path = "Target Support Files/Pods-LKButterflyFCM/Pods-LKButterflyFCM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6AA391575832EEC8243C01 /* libPods-ButterflyFCM.a in Frameworks */,
+				FE6AA391575832EEC8243C01 /* libPods-LKButterflyFCM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE8E31723D7856F00A6D468 /* ButterflyFCM.framework in Frameworks */,
+				5EE8E31723D7856F00A6D468 /* LKButterflyFCM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		22C9DF14788767D5A27490C2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D02F53C6FAED10ED3EC5160 /* Pods-ButterflyFCM.debug.xcconfig */,
-				BF89079811DD249410294D7D /* Pods-ButterflyFCM.release.xcconfig */,
+				0D02F53C6FAED10ED3EC5160 /* Pods-LKButterflyFCM.debug.xcconfig */,
+				BF89079811DD249410294D7D /* Pods-LKButterflyFCM.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -71,7 +71,7 @@
 		5EE8E30323D7856F00A6D468 = {
 			isa = PBXGroup;
 			children = (
-				5EE8E30F23D7856F00A6D468 /* ButterflyFCM */,
+				5EE8E30F23D7856F00A6D468 /* LKButterflyFCM */,
 				5EE8E31A23D7856F00A6D468 /* ButterflyFCMTests */,
 				5EE8E30E23D7856F00A6D468 /* Products */,
 				22C9DF14788767D5A27490C2 /* Pods */,
@@ -82,21 +82,21 @@
 		5EE8E30E23D7856F00A6D468 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EE8E30D23D7856F00A6D468 /* ButterflyFCM.framework */,
+				5EE8E30D23D7856F00A6D468 /* LKButterflyFCM.framework */,
 				5EE8E31623D7856F00A6D468 /* ButterflyFCMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EE8E30F23D7856F00A6D468 /* ButterflyFCM */ = {
+		5EE8E30F23D7856F00A6D468 /* LKButterflyFCM */ = {
 			isa = PBXGroup;
 			children = (
 				5EE8E31123D7856F00A6D468 /* Info.plist */,
-				5EE8E31023D7856F00A6D468 /* ButterflyFCM.h */,
+				5EE8E31023D7856F00A6D468 /* LKButterflyFCM.h */,
 				5EE8E32723D786D500A6D468 /* ButterflyFcmAppDelegate.swift */,
 				5EE8E32923D7ACF000A6D468 /* Notifications.swift */,
 			);
-			path = ButterflyFCM;
+			path = LKButterflyFCM;
 			sourceTree = "<group>";
 		};
 		5EE8E31A23D7856F00A6D468 /* ButterflyFCMTests */ = {
@@ -111,7 +111,7 @@
 		908C0E42A2FD6300C3B408CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC91C479661739FFD024E27E /* libPods-ButterflyFCM.a */,
+				AC91C479661739FFD024E27E /* libPods-LKButterflyFCM.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,16 +123,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE8E31E23D7857000A6D468 /* ButterflyFCM.h in Headers */,
+				5EE8E31E23D7857000A6D468 /* LKButterflyFCM.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5EE8E30C23D7856F00A6D468 /* ButterflyFCM */ = {
+		5EE8E30C23D7856F00A6D468 /* LKButterflyFCM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE8E32123D7857000A6D468 /* Build configuration list for PBXNativeTarget "ButterflyFCM" */;
+			buildConfigurationList = 5EE8E32123D7857000A6D468 /* Build configuration list for PBXNativeTarget "LKButterflyFCM" */;
 			buildPhases = (
 				214BFA241DE5A4AF35144442 /* [CP] Check Pods Manifest.lock */,
 				5EE8E30823D7856F00A6D468 /* Headers */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = ButterflyFCM;
-			productName = ButterflyFCM;
-			productReference = 5EE8E30D23D7856F00A6D468 /* ButterflyFCM.framework */;
+			name = LKButterflyFCM;
+			productName = LKButterflyFCM;
+			productReference = 5EE8E30D23D7856F00A6D468 /* LKButterflyFCM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5EE8E31523D7856F00A6D468 /* ButterflyFCMTests */ = {
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EE8E30723D7856F00A6D468 /* Build configuration list for PBXProject "ButterflyFCM" */;
+			buildConfigurationList = 5EE8E30723D7856F00A6D468 /* Build configuration list for PBXProject "LKButterflyFCM" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -199,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EE8E30C23D7856F00A6D468 /* ButterflyFCM */,
+				5EE8E30C23D7856F00A6D468 /* LKButterflyFCM */,
 				5EE8E31523D7856F00A6D468 /* ButterflyFCMTests */,
 			);
 		};
@@ -238,7 +238,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ButterflyFCM-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LKButterflyFCM-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -270,7 +270,7 @@
 /* Begin PBXTargetDependency section */
 		5EE8E31923D7856F00A6D468 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EE8E30C23D7856F00A6D468 /* ButterflyFCM */;
+			target = 5EE8E30C23D7856F00A6D468 /* LKButterflyFCM */;
 			targetProxy = 5EE8E31823D7856F00A6D468 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,7 +398,7 @@
 		};
 		5EE8E32223D7857000A6D468 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D02F53C6FAED10ED3EC5160 /* Pods-ButterflyFCM.debug.xcconfig */;
+			baseConfigurationReference = 0D02F53C6FAED10ED3EC5160 /* Pods-LKButterflyFCM.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -407,14 +407,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ButterflyFCM/Info.plist;
+				INFOPLIST_FILE = LKButterflyFCM/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.ButterflyFCM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyFCM;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -425,7 +425,7 @@
 		};
 		5EE8E32323D7857000A6D468 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF89079811DD249410294D7D /* Pods-ButterflyFCM.release.xcconfig */;
+			baseConfigurationReference = BF89079811DD249410294D7D /* Pods-LKButterflyFCM.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,14 +434,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ButterflyFCM/Info.plist;
+				INFOPLIST_FILE = LKButterflyFCM/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.ButterflyFCM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyFCM;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +490,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EE8E30723D7856F00A6D468 /* Build configuration list for PBXProject "ButterflyFCM" */ = {
+		5EE8E30723D7856F00A6D468 /* Build configuration list for PBXProject "LKButterflyFCM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EE8E31F23D7857000A6D468 /* Debug */,
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EE8E32123D7857000A6D468 /* Build configuration list for PBXNativeTarget "ButterflyFCM" */ = {
+		5EE8E32123D7857000A6D468 /* Build configuration list for PBXNativeTarget "LKButterflyFCM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EE8E32223D7857000A6D468 /* Debug */,

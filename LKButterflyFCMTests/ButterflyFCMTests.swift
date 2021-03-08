@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ButterflyFCM
+@testable import LKButterflyFCM
 
 class ButterflyFCMTests: XCTestCase {
 
