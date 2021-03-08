@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = '5.3'
   s.xcconfig = { 'SWIFT_VERSION' => '5.3' }
-  # Dependency on Butterfly not representable at the moment
   s.dependency "LKButterfly/Core"
-  s.dependency "Firebase/Analytics"
-  s.dependency "Firebase/Messaging"
+  s.dependency "Firebase/Analytics", '~>6.14'
+  s.dependency "Firebase/Messaging", '~>6.14'
 end
