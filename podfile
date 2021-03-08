@@ -10,6 +10,6 @@ end
 
 target 'ButterflyFCMTests' do
     pod 'LKButterfly/Core'
-    pod 'Firebase/Messaging', '~>6.14'
-    pod 'Firebase/Analytics', '~>6.14'
+    pod 'Firebase/Messaging'
+    pod 'Firebase/Analytics'
 end
