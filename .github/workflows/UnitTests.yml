@@ -2,7 +2,7 @@ name: UnitTests
 
 on:
   push:
-    branches: [ master, cocoapods_prep ]
+    branches: [ master ]
   pull_request:
     branches: master
 
