@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "ButterflyFCM"
+  s.name = "LKButterflyFCM"
   s.version = "0.2.0"
   s.summary = "Firebase Cloud Messaging for Butterfly"
   s.description = "Shared code for notifications using Butterfly.  This is the iOS portion."
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.3'
   s.xcconfig = { 'SWIFT_VERSION' => '5.3' }
   # Dependency on Butterfly not representable at the moment
-  s.dependency "Butterfly/Core"
+  s.dependency "LKButterfly/Core"
   s.dependency "Firebase/Analytics"
   s.dependency "Firebase/Messaging"
 end
