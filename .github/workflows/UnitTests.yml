@@ -16,4 +16,4 @@ jobs:
       - name: Install CocoaPods
         run: pod install
       - name: Build and Test
-        run: xcodebuild -workspace ButterflyFCM.xcworkspace -scheme ButterflyFCM -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=14.4,name=iPhone 12 Pro Max' test
+        run: xcodebuild -workspace LKButterflyFCM.xcworkspace -scheme LKButterflyFCM -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=14.4,name=iPhone 12 Pro Max' test
