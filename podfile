@@ -2,13 +2,13 @@
 platform :ios, '11.0'
 use_modular_headers!
 
-target 'ButterflyFCM' do
+target 'LKButterflyFCM' do
     pod 'LKButterfly/Core'
     pod 'Firebase/Messaging'
     pod 'Firebase/Analytics'
 end
 
-target 'ButterflyFCMTests' do
+target 'LKButterflyFCMTests' do
     pod 'LKButterfly/Core'
     pod 'Firebase/Messaging'
     pod 'Firebase/Analytics'

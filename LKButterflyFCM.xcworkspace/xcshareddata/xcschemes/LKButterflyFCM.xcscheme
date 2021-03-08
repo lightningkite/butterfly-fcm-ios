@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EE8E30C23D7856F00A6D468"
-               BuildableName = "ButterflyFCM.framework"
-               BlueprintName = "ButterflyFCM"
-               ReferencedContainer = "container:ButterflyFCM.xcodeproj">
+               BuildableName = "LKButterflyFCM.framework"
+               BlueprintName = "LKButterflyFCM"
+               ReferencedContainer = "container:LKButterflyFCM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EE8E31523D7856F00A6D468"
-               BuildableName = "ButterflyFCMTests.xctest"
-               BlueprintName = "ButterflyFCMTests"
-               ReferencedContainer = "container:ButterflyFCM.xcodeproj">
+               BuildableName = "LKButterflyFCMTests.xctest"
+               BlueprintName = "LKButterflyFCMTests"
+               ReferencedContainer = "container:LKButterflyFCM.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EE8E30C23D7856F00A6D468"
-            BuildableName = "ButterflyFCM.framework"
-            BlueprintName = "ButterflyFCM"
-            ReferencedContainer = "container:ButterflyFCM.xcodeproj">
+            BuildableName = "LKButterflyFCM.framework"
+            BlueprintName = "LKButterflyFCM"
+            ReferencedContainer = "container:LKButterflyFCM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

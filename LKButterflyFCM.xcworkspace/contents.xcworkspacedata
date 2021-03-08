@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ButterflyFCM.xcodeproj">
+      location = "group:/Users/brady/LK/khrysalis-meta/butterfly-fcm-ios/LKButterflyFCM.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

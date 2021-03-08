@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "ButterflyFCM"
+  s.name = "LKButterflyFCM"
   s.version = "0.2.0"
   s.summary = "Firebase Cloud Messaging for Butterfly"
   s.description = "Shared code for notifications using Butterfly.  This is the iOS portion."
