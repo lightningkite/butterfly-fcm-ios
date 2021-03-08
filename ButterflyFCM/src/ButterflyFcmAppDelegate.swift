@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseMessaging
 import FirebaseCore
-import Butterfly
+import LKButterfly
 
 open class ButterflyFcmAppDelegate: ButterflyAppDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
 

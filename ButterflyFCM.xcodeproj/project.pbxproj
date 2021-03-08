@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CFB30925F67C7F001BAE75 /* ButterflyFCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CFB30225F67C7F001BAE75 /* ButterflyFCM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23CFB30B25F67C7F001BAE75 /* ForegroundNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB30525F67C7F001BAE75 /* ForegroundNotificationHandler.swift */; };
+		23CFB30C25F67C7F001BAE75 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB30625F67C7F001BAE75 /* Notifications.swift */; };
+		23CFB30D25F67C7F001BAE75 /* ButterflyFcmAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB30725F67C7F001BAE75 /* ButterflyFcmAppDelegate.swift */; };
 		5EE8E31723D7856F00A6D468 /* ButterflyFCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE8E30D23D7856F00A6D468 /* ButterflyFCM.framework */; };
 		5EE8E31C23D7857000A6D468 /* ButterflyFCMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8E31B23D7856F00A6D468 /* ButterflyFCMTests.swift */; };
-		5EE8E31E23D7857000A6D468 /* ButterflyFCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE8E31023D7856F00A6D468 /* ButterflyFCM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EE8E32823D786D500A6D468 /* ButterflyFcmAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8E32723D786D500A6D468 /* ButterflyFcmAppDelegate.swift */; };
-		5EE8E32A23D7ACF000A6D468 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8E32923D7ACF000A6D468 /* Notifications.swift */; };
+		63EDAD23889C708293596957 /* libPods-ButterflyFCMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351E6BF7687A7B65C1BDE188 /* libPods-ButterflyFCMTests.a */; };
 		FE6AA391575832EEC8243C01 /* libPods-ButterflyFCM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC91C479661739FFD024E27E /* libPods-ButterflyFCM.a */; };
 /* End PBXBuildFile section */
 
@@ -27,16 +29,21 @@
 
 /* Begin PBXFileReference section */
 		0D02F53C6FAED10ED3EC5160 /* Pods-ButterflyFCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyFCM.debug.xcconfig"; path = "Target Support Files/Pods-ButterflyFCM/Pods-ButterflyFCM.debug.xcconfig"; sourceTree = "<group>"; };
+		23CFB30225F67C7F001BAE75 /* ButterflyFCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButterflyFCM.h; sourceTree = "<group>"; };
+		23CFB30325F67C7F001BAE75 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CFB30525F67C7F001BAE75 /* ForegroundNotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForegroundNotificationHandler.swift; sourceTree = "<group>"; };
+		23CFB30625F67C7F001BAE75 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		23CFB30725F67C7F001BAE75 /* ButterflyFcmAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButterflyFcmAppDelegate.swift; sourceTree = "<group>"; };
+		23CFB30825F67C7F001BAE75 /* fqnames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fqnames.txt; sourceTree = "<group>"; };
+		351E6BF7687A7B65C1BDE188 /* libPods-ButterflyFCMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ButterflyFCMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE8E30D23D7856F00A6D468 /* ButterflyFCM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ButterflyFCM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EE8E31023D7856F00A6D468 /* ButterflyFCM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButterflyFCM.h; sourceTree = "<group>"; };
-		5EE8E31123D7856F00A6D468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EE8E31623D7856F00A6D468 /* ButterflyFCMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButterflyFCMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE8E31B23D7856F00A6D468 /* ButterflyFCMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyFCMTests.swift; sourceTree = "<group>"; };
 		5EE8E31D23D7857000A6D468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EE8E32723D786D500A6D468 /* ButterflyFcmAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyFcmAppDelegate.swift; sourceTree = "<group>"; };
-		5EE8E32923D7ACF000A6D468 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		AC91C479661739FFD024E27E /* libPods-ButterflyFCM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ButterflyFCM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF89079811DD249410294D7D /* Pods-ButterflyFCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyFCM.release.xcconfig"; path = "Target Support Files/Pods-ButterflyFCM/Pods-ButterflyFCM.release.xcconfig"; sourceTree = "<group>"; };
+		EFF85649998E3CD30D96F858 /* Pods-ButterflyFCMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyFCMTests.debug.xcconfig"; path = "Target Support Files/Pods-ButterflyFCMTests/Pods-ButterflyFCMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F6B6EEC338BCC35D9B0FF3 /* Pods-ButterflyFCMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyFCMTests.release.xcconfig"; path = "Target Support Files/Pods-ButterflyFCMTests/Pods-ButterflyFCMTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EE8E31723D7856F00A6D468 /* ButterflyFCM.framework in Frameworks */,
+				63EDAD23889C708293596957 /* libPods-ButterflyFCMTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +72,21 @@
 			children = (
 				0D02F53C6FAED10ED3EC5160 /* Pods-ButterflyFCM.debug.xcconfig */,
 				BF89079811DD249410294D7D /* Pods-ButterflyFCM.release.xcconfig */,
+				EFF85649998E3CD30D96F858 /* Pods-ButterflyFCMTests.debug.xcconfig */,
+				F0F6B6EEC338BCC35D9B0FF3 /* Pods-ButterflyFCMTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		23CFB30425F67C7F001BAE75 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				23CFB30525F67C7F001BAE75 /* ForegroundNotificationHandler.swift */,
+				23CFB30625F67C7F001BAE75 /* Notifications.swift */,
+				23CFB30725F67C7F001BAE75 /* ButterflyFcmAppDelegate.swift */,
+				23CFB30825F67C7F001BAE75 /* fqnames.txt */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		5EE8E30323D7856F00A6D468 = {
@@ -91,10 +112,9 @@
 		5EE8E30F23D7856F00A6D468 /* ButterflyFCM */ = {
 			isa = PBXGroup;
 			children = (
-				5EE8E31123D7856F00A6D468 /* Info.plist */,
-				5EE8E31023D7856F00A6D468 /* ButterflyFCM.h */,
-				5EE8E32723D786D500A6D468 /* ButterflyFcmAppDelegate.swift */,
-				5EE8E32923D7ACF000A6D468 /* Notifications.swift */,
+				23CFB30225F67C7F001BAE75 /* ButterflyFCM.h */,
+				23CFB30325F67C7F001BAE75 /* Info.plist */,
+				23CFB30425F67C7F001BAE75 /* src */,
 			);
 			path = ButterflyFCM;
 			sourceTree = "<group>";
@@ -112,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				AC91C479661739FFD024E27E /* libPods-ButterflyFCM.a */,
+				351E6BF7687A7B65C1BDE188 /* libPods-ButterflyFCMTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,7 +144,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE8E31E23D7857000A6D468 /* ButterflyFCM.h in Headers */,
+				23CFB30925F67C7F001BAE75 /* ButterflyFCM.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +159,6 @@
 				5EE8E30823D7856F00A6D468 /* Headers */,
 				5EE8E30923D7856F00A6D468 /* Sources */,
 				5EE8E30A23D7856F00A6D468 /* Frameworks */,
-				5EE8E30B23D7856F00A6D468 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EE8E32423D7857000A6D468 /* Build configuration list for PBXNativeTarget "ButterflyFCMTests" */;
 			buildPhases = (
+				3F8D45820E0BCA151B9EC35A /* [CP] Check Pods Manifest.lock */,
 				5EE8E31223D7856F00A6D468 /* Sources */,
 				5EE8E31323D7856F00A6D468 /* Frameworks */,
 				5EE8E31423D7856F00A6D468 /* Resources */,
@@ -206,13 +227,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5EE8E30B23D7856F00A6D468 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5EE8E31423D7856F00A6D468 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +259,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3F8D45820E0BCA151B9EC35A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButterflyFCMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -252,8 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE8E32A23D7ACF000A6D468 /* Notifications.swift in Sources */,
-				5EE8E32823D786D500A6D468 /* ButterflyFcmAppDelegate.swift in Sources */,
+				23CFB30C25F67C7F001BAE75 /* Notifications.swift in Sources */,
+				23CFB30D25F67C7F001BAE75 /* ButterflyFcmAppDelegate.swift in Sources */,
+				23CFB30B25F67C7F001BAE75 /* ForegroundNotificationHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +488,7 @@
 		};
 		5EE8E32523D7857000A6D468 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF85649998E3CD30D96F858 /* Pods-ButterflyFCMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +508,7 @@
 		};
 		5EE8E32623D7857000A6D468 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F6B6EEC338BCC35D9B0FF3 /* Pods-ButterflyFCMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,8 +1,8 @@
 PODS:
-  - Alamofire (4.9.1)
-  - AlamofireImage (3.6.0):
-    - Alamofire (~> 4.9)
-  - Cosmos (19.0.3)
+  - Alamofire (5.4.1)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - Cosmos (23.0.0)
   - Firebase/Analytics (6.14.0):
     - Firebase/Core
   - Firebase/Core (6.14.0):
@@ -76,15 +76,18 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.5.0):
     - GoogleUtilities/Logger
-  - KeychainAccess (4.1.0)
-  - Kwift (0.1.0):
+  - IBPCollectionViewCompositionalLayout (0.6.9)
+  - KeychainAccess (4.2.2)
+  - LKButterfly/Core (0.2.0):
     - Alamofire
     - AlamofireImage
-    - Cosmos (~> 19.0)
+    - Cosmos
+    - IBPCollectionViewCompositionalLayout
     - KeychainAccess
-    - RxRelay
-    - RxSwift
+    - RxRelay (= 5.1.1)
+    - RxSwift (= 5.1.1)
     - SearchTextField
+    - Starscream
     - "UITextView+Placeholder"
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
@@ -92,16 +95,17 @@ PODS:
   - nanopb/decode (0.3.9011)
   - nanopb/encode (0.3.9011)
   - Protobuf (3.11.2)
-  - RxRelay (5.0.1):
+  - RxRelay (5.1.1):
     - RxSwift (~> 5)
-  - RxSwift (5.0.1)
+  - RxSwift (5.1.1)
   - SearchTextField (1.2.4)
-  - "UITextView+Placeholder (1.3.3)"
+  - Starscream (4.0.4)
+  - "UITextView+Placeholder (1.4.0)"
 
 DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Messaging
-  - Kwift (from `~/StudioProjects/kwift/kwift.podspec`)
+  - LKButterfly/Core
 
 SPEC REPOS:
   trunk:
@@ -120,22 +124,21 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - IBPCollectionViewCompositionalLayout
     - KeychainAccess
+    - LKButterfly
     - nanopb
     - Protobuf
     - RxRelay
     - RxSwift
     - SearchTextField
+    - Starscream
     - "UITextView+Placeholder"
 
-EXTERNAL SOURCES:
-  Kwift:
-    :path: "~/StudioProjects/kwift/kwift.podspec"
-
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
-  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   Firebase: 0219bb4782eb1406f1b9b0628a2e625484ce910d
   FirebaseAnalytics: f68b9f3f1241385129ae0a83b63627fc420c05e5
   FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
@@ -148,15 +151,17 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 574a983e829327d7c18f2627f65d9e80164ea8a4
   GoogleDataTransportCCTSupport: cad3cd6cdbdbad6b5c2c9206ec413402755faaaa
   GoogleUtilities: f8de7ddf8c706f58e9b405d53e38bbdaa2731e5a
-  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
-  Kwift: 942bde9b3b3053e92b82629ed760f41396fb3666
+  IBPCollectionViewCompositionalLayout: bbb29e39ac564666a8c3cdb6633ed944b6feb55b
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  LKButterfly: 3dbdf06c22c860911c74222a220b214e08b1f64f
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
-  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
-  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
-  "UITextView+Placeholder": c407b27599ea23cca425946fee3cf1db5d547008
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
 
-PODFILE CHECKSUM: d8550ce638a749e8b1561d29d02465f836addf03
+PODFILE CHECKSUM: f53075b7388d54fd2bebdafd80537917bb73e68f
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.1
