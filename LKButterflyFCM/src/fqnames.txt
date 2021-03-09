@@ -1,4 +1,4 @@
-ButterflyFCM
+LKButterflyFCM
 com.lightningkite.butterfly.fcm.FirebaseMessagingActivity
 com.lightningkite.butterfly.fcm
 com.lightningkite.butterfly.fcm.ForegroundNotificationHandler

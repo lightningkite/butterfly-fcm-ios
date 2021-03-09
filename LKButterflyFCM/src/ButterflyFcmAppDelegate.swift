@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseMessaging
 import FirebaseCore
-import Butterfly
+import LKButterfly
 
 open class ButterflyFcmAppDelegate: ButterflyAppDelegate, UNUserNotificationCenterDelegate, MessagingDelegate {
 
@@ -87,7 +87,7 @@ open class ButterflyFcmAppDelegate: ButterflyAppDelegate, UNUserNotificationCent
         }
     }
 
-    public func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
+    public func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
         Notifications.INSTANCE.notificationToken.value = fcmToken
     }
 }

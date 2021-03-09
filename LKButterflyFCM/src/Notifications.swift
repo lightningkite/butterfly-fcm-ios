@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseCore
 import FirebaseMessaging
-import Butterfly
+import LKButterfly
 
 
 public class Notifications {
