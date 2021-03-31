@@ -13,6 +13,7 @@ import LKButterfly
 
 
 public class Notifications {
+    static public var useCritical = false
     static public let INSTANCE = Notifications()
 
     public var notificationToken = StandardObservableProperty<String?>(underlyingValue: nil)
@@ -27,7 +28,13 @@ public class Notifications {
                 onResult(true)
                 return
             } else if it.authorizationStatus == .notDetermined {
-                UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: { (success, error) in
+                var options: UNAuthorizationOptions = [.alert, .sound, .badge]
+                if #available(iOS 12.0, *) {
+                    if Notifications.useCritical {
+                        options = [.alert, .sound, .badge, .criticalAlert]
+                    }
+                }
+                UNUserNotificationCenter.current().requestAuthorization(options: options, completionHandler: { (success, error) in
                     if success {
                         Notifications.INSTANCE.notificationToken.value = Messaging.messaging().fcmToken
                     }
